@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "erika";
+  src: url("../fonts/G2-Erika-Regular.ttf") format("truetype");
+  font-weight: 200 900;
+  font-style: normal;
+}
+::-moz-selection {
+  color: rgb(225, 225, 225);
+  background: rgb(216, 250, 255);
+}
+::selection {
+  color: rgb(225, 225, 225);
+  background: rgb(216, 250, 255);
+}
+
+h1 {
+  font-family: "erika";
+  font-weight: 350;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  cursor: default;
+  transition: 0.3s ease-in;
+}
+
+h2 {
+  cursor: default;
+  font-family: "erika";
+  font-weight: 330;
+  font-size: 2rem;
+  line-height: 2.3rem;
+  cursor: default;
+  transition: 0.3s ease-in;
+}
+
+h3 {
+  font-family: "erika";
+  font-weight: 380;
+  font-size: 0.7rem;
+  line-height: 0.8rem;
+  cursor: default;
+  text-transform: uppercase;
+}
+
+#header-cross {
+  font-family: "erika";
+  font-weight: 200;
+  font-size: 2.5rem;
+  line-height: 1.1rem;
+  cursor: default;
+  transition: 0.3s ease-in;
+}
+
+#mail[href^=phone] #phone {
+  color: inherit;
+  text-decoration: none;
+  -webkit-text-size-adjust: none;
+  -webkit-user-modify: read-write-plaintext-only;
+  -webkit-touch-callout: none;
+}
+
+@media (min-width: 768px) {
+  .click:hover {
+    opacity: 0.5;
+    transition: 150ms ease-in;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-weight: 450;
+    font-size: 1.1rem;
+    line-height: 1.25rem;
+  }
+  .header-info h1 {
+    line-height: 2rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+  }
+  .info h1 {
+    font-weight: 450;
+    font-size: 0.9rem;
+    line-height: 1rem;
+  }
+  .index-column h1 {
+    font-weight: 450;
+    font-size: 0.9rem;
+    line-height: 1rem;
+  }
+  .project h1 {
+    font-weight: 450;
+    font-size: 0.9rem;
+    line-height: 1rem;
+  }
+  h3 {
+    font-weight: 500;
+    font-size: 0.6rem;
+    line-height: 0.7rem;
+  }
+}/*# sourceMappingURL=type.css.map */
